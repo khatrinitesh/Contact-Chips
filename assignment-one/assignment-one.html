@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Repository</title>
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<div class="container">
+	</div>
+	<ul class="contact_chips">
+		<li>
+			<span class="desc">Title</span>
+			<a href="javascript:void(0)" class="close">&times;</a>
+		</li>
+		<li>
+			<span class="desc">Title</span>
+			<a href="javascript:void(0)" class="close">&times;</a>
+		</li>
+		<li>
+			<span class="desc">Title</span>
+			<a href="javascript:void(0)" class="close">&times;</a>
+		</li>
+		<li>
+			<span class="desc">Title</span>
+			<a href="javascript:void(0)" class="close">&times;</a>
+		</li>
+		<li>
+			<span class="desc">Title</span>
+			<a href="javascript:void(0)" class="close">&times;</a>
+		</li>
+	</ul>
+
+	<!-- JS -->
+	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function(){
+			$(".close").click(function(){
+				$(this).parent().remove();
+			});
+		});
+	</script>
+</body>
+</html>
